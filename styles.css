@@ -1,0 +1,38 @@
+#map{
+    border-style: solid;
+    border-radius: 2px;
+    margin: 5px 0px;
+    width: 400px;
+    height: 200px;
+}
+#textF{
+    width: 400px;
+    height: 200px;
+}
+#Name{
+    width: 400px;
+}
+#Tel{
+    width: 400px;
+    margin: 5px 0px;
+}
+#Email{
+    width: 400px;
+}
+#_Error{
+    width: 400px;
+    height: 200px;
+}
+#Subm{
+    width: 100px;
+    height: 20px;
+    margin: 0px 150px;
+    border-radius: 4px;
+    border-style: none;
+    text-decoration: none;
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    font-family: 'Courier New';
+    transition: .5s;
+}

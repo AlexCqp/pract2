@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Карты</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="Validate.js"></script>
+		<meta charset="utf-8">
+        <script src="map.js"></script>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=97e7a16f-6a57-47d1-87eb-0bb96b832fca&lang=ru_RU" type="text/javascript">
+        </script>
+    </head>
+    <body onload="init()">
+        <div class="infoFields">
+        <input id="Name" placeholder="Имя"/>
+        <br><input id="Tel" placeholder="Телефон"/></br>
+        <input id="Email" placeholder="Email"/>
+        </div>
+        <div id="map"></div>
+
+        <div id="textField">
+            <textarea id="textF" maxlength="500" placeholder="Комментарий к заказу (макс.  500 символов)"></textarea>
+        </div>
+        
+        <input type="button" id="Subm" value="Отправить" onclick="validateFields('Name', 'Tel', 'Email', '_Error')">
+        <div id="_Error"></div>
+        
+    
+    </body>
+</html>
